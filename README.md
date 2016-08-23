@@ -6,13 +6,13 @@ This is a simple Node.js webserver that sends a hello world response
 - [install node.js](https://nodejs.org) on your machine
 - [install git](https://git-scm.com/) on your machine (so that on Windows you can use Bash commands)
 - open up a Command line / terminal to a folder you'd like to contain your projects
-- `$ git clone https://github.com/freegyes/codeberry-webserver.git`
-- `$ cd codeberry-webserver`
+- `$ git clone https://github.com/freegyes/codeberry-webserver-static.git`
+- `$ cd codeberry-webserver-static`
 - `$ npm start`
 
 ## How to tell if it is working
 - on your terminal it should say: `Server running at http://127.0.0.1:3000/`
-- visit [http://127.0.0.1:3000](http://127.0.0.1:3000) where you should see the 'Hello world'
+- visit [http://127.0.0.1:3000](http://127.0.0.1:3000) where the index.html should be loaded
 
 ## How to stop the server
 - in your terminal / command line press <kbd>ctrl</kbd> + <kbd>c</kbd> to exit the process and free up the port in use
